@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  width: 100%;
+  background: black;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.weather{
+  width: 100%;
+  height: auto;
+  background: linear-gradient( 1deg, rgb(86, 86, 248), skyblue);
+  border-radius: 60px;
+}
+.weather .weather_body nav{
+  width: 100%;
+  height:auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+
+  }
+  .weather .weather_body nav i {
+    color: aliceblue;
+  }
+  .weather .weather_body nav i span {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  .divcontain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .divcontain .contain1{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .divcontain .contain1 img{
+width: 100%;
+height: 80%;
+
+  }
+  .divcontain .contain2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+justify-content: space-around;
+    flex-direction: column;
+  }
+  .divcontain .contain2 h2{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: aliceblue;
+  }
+  .divcontain .contain2 h1::after{
+    content: "/17";
+    font-size: 40px;
+    color: gray;
+  }
+  .divcontain .contain2 h1{
+    padding: 0px 20px;
+    font-size: 60px;
+    font-weight: 1400;
+    color: aliceblue;
+  }
+  .divcontain .contain2 h3{
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(67, 64, 64);
+  }
+  .divtag{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .divtag .divtag1{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .divtag .divtag1 h1{
+    padding-top: 10px;
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .divtag .divtag1 h2{
+
+    font-size: 10px;
+    color: gray;
+  }
+  .divtag .divtag2{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  .divtag .divtag2 h1{
+    padding-top: 10px;
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .divtag .divtag2 h2{
+
+    font-size: 10px;
+    color: gray;
+  }
+  .divtag .divtag3{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .divtag .divtag3 h1{
+    padding-top: 10px;
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .divtag .divtag3 h2{
+
+    font-size: 10px;
+    color: gray;
+  }
+  .table{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .table .week{
+    padding: 10px 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .table .week .kunlar{
+    color: gray;
+    font-size: 20px;
+  }
+  .table .week i{
+    color: rgb(251, 247, 247);
+    font-size: 20px;
+  }
+  .table .week i span{
+    padding: 0px 10px;
+    color: rgb(117, 105, 105);
+    font-size: 10px;
+  }
+
+
+  .table .week p{
+    color: rgb(251, 247, 247);
+    font-size: 20px;
+  }
+  .table .week p span{
+    color: rgb(115, 105, 105);
+    font-size: 15px;
+    font-weight: bold;
+  }
